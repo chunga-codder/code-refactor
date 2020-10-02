@@ -1,0 +1,182 @@
+
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #c5cac0;
+}
+/* grouping the header and footer attributes */
+header, footer {
+    background-color: #2a607c;
+    font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+/* a header */
+header {
+    padding: 75px;
+    background-color: #2a607c;
+    color: rgb(211, 200, 200);
+    text-align: center;
+    width: 100%;
+    
+}
+/* including a class for the h1 of the header */
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    color: white;
+    
+
+}
+/* including a class for the header */
+.header h1 .seo {
+    color: #d9dcd6;
+    background-color:  #2a607c;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-image:url(a);
+    background-size: cover;
+    background-position: auto;
+    
+    
+}
+
+.float-left {
+    float: left;
+    margin-right: 0px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* adding the aside tag */
+aside {
+    margin: 20px;
+    padding: 10px;
+    clear: both;
+    float: right;
+    width: 20%;
+   height: 100%; 
+   /* it is not good when a code line is too long, cuting it down to be shortergit */
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', Calibri, 'Trebuchet MS',
+     sans-serif;
+    background-color: #2589bd;
+}
+
+
+.benefit-cost, .benefit-brand,.benefit-lead {
+    margin-bottom: 0px;
+    color: #ffffff;
+    background-color: #2589bd;
+    padding: 35px;
+    text-align: center;
+}
+/* same propertieskukk */
+.benefit-brand h3,
+.benefit-lead h3,
+.benefit-cost h3 { 
+    margin: 10px;
+    text-align: center;
+    color: white;
+    height: auto;
+}
+/* same properties */
+.benefit-cost img,
+.benefit-lead img,
+.benefit-brand img  { 
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+}
+/* grouping the clases with same properties */
+.social-media-marketing,
+.search-engine-optimization,
+.online-reputation-management {
+    margin: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.section-image {
+    height: 50px;
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* grouping the classes with same properties */
+.social-media-marketing img,
+.online-reputation-management img,
+.search-engine-optimization img {
+    max-height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+/* grouping the elements which have same styles */
+.social-media-marketing h2,
+.online-reputation-management h2,
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 40px;
+    clear: both;
+    /* i am adding other font types should in case the first is absent from a particular browser  */
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #2a607c;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.footer h2 {
+    font-size: 10px;
+    color: white;
+}
